@@ -1,0 +1,130 @@
+.section--intro
+	background-image: url(../img/intro/intro-m-bg.jpg)
+	background-repeat no-repeat
+	background-size cover
+
+	+sm-block()
+		background-image: url(../img/intro/intro-t-bg.jpg)
+
+	+lg-block()
+		background-image: url(../img/intro/intro-bg.jpg)	
+
+
+.intro
+	padding 8em 0 4.375em
+	text-align center
+	display flex
+	justify-content center
+
+	+lg-block()
+		padding 19.875em 0 15em		
+		text-align start
+
+	&__content
+		
+		+lg-block()
+			width 50%
+
+	&__content-img
+		display none
+
+		+lg-block()
+			display block
+			margin-bottom 1.875em
+
+	&__title
+		font-family 'Open Sans', sans-serif
+		font-size 1.875rem
+		font-weight 600
+		color: #ffffff
+		line-height 1.4
+		margin-bottom 0.7em
+
+	&__text
+		font-family 'Open Sans', sans-serif
+		font-size 1.125rem
+		color: #e5e5e5
+		line-height 2
+		letter-spacing: 0.005em
+		font-weight 300
+		font-style normal
+		opacity 0.8
+		margin 0
+
+		+lg-block()
+			width 80%
+
+	&__form
+		display none
+		+lg-block()
+			display flex
+			flex-direction column
+			align-items: flex-end
+
+		+sm-block()
+			width 50%	
+
+	&__forms
+		display flex
+		flex-direction column
+		align-items center
+
+	&__form-text
+		font-size 1.125rem
+		font-family 'Open Sans', sans-serif
+		font-weight 600
+		line-height 1.6
+		text-align center
+		color: #fff
+		margin-bottom 1.2em
+		margin-top 0
+
+		+lg-block()
+			font-size 1.0625rem
+
+
+	&__form-phone
+		width 20em
+		height 3.34em
+		margin-bottom 1.33em
+		border: 1px solid #c9ccd4
+		border-radius: 0.26em
+		font-size 0.9rem
+		color #1c1c1c
+		font-family 'Open Sans'
+		padding 0.87em 1.27em 0.74em 1.74em
+
+		+lg-block()
+			width 23em
+
+	&__form-name
+		width 20em
+		height 3.34em
+		margin-bottom 1.33em
+		border: 1px solid #c9ccd4
+		border-radius: 0.26em
+		font-size 0.9rem
+		color #1c1c1c
+		font-family 'Open Sans'
+		padding 0.87em 1.27em 0.74em 1.74em
+
+		+lg-block()
+			width 23em
+
+	&__form-btn
+		width 20em
+		height 3.34em
+		font-size 0.9rem
+		line-height 1.4
+		font-family 'Open Sans'
+		font-weight 600
+		border: none
+		border-radius: 0.4em
+		background-color #0AD9C6
+		cursor pointer
+		
+		+lg-block()
+			width 23em
+
+		+lg-block()
+			width 23em

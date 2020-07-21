@@ -1,0 +1,97 @@
+.section--kind
+	background-color #F6F7F9
+
+.kind
+
+	&__title
+		text-align center
+		font-size 1.5rem
+		font-family 'Open Sans', sans-serif
+		line-height 1.7
+		font-weight 600
+		padding 2.09em 0 1.25em
+
+	&__cards
+		display flex
+		flex-wrap wrap
+		align-items center
+		justify-content center
+
+		+sm-block()
+			justify-content: space-around
+		
+		+xl-block()
+			padding-bottom 9.375em
+
+	&__card
+		max-width 16.875em
+		position relative
+		z-index 1
+		margin-bottom 2.5em
+
+		+xl-block()
+			max-width none
+
+	&__card-two
+
+		+xl-block()
+			transform: translateY(3.75em)
+
+	&__card-bg
+		display none
+
+	&__card-m-bg
+		width 100%
+
+		+xl-block()
+			display none
+
+	&__card-desc-bg
+		display none
+
+		+xl-block()
+			display block
+
+	&__card-img1
+		position absolute
+		left -1.5em
+		bottom 1.5em
+		z-index -1
+
+		+xl-block()
+			bottom 40%
+			width 11.25em
+			height 11.25em
+			left -20%
+
+	&__card-two-img1
+		display none
+
+		+xl-block()
+			display block
+			position absolute
+			top -1.125em
+			left -1.125em
+
+	&__card-two-img2
+		display none
+
+		+xl-block()
+			display block
+			position absolute
+			right -1.44em
+			bottom: 1.44em
+
+	&__card-img3
+		position absolute
+		top: -1.25em
+		right -0.9375em	
+
+	&__card-title
+		font-size 1.375rem
+		font-family 'Open Sans', sans-serif
+		font-weight 600
+		line-height 1.55
+		color #000
+		text-align center
+		padding-top 0.5em

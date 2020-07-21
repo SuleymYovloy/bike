@@ -1,0 +1,58 @@
+.pickup
+	padding 4.375em 0 4.375em
+	display flex
+	flex-direction column
+	justify-content center
+	align-items center
+
+	&__forms
+		display flex
+		flex-direction column
+		align-items center
+
+		+lg-block()
+			display none
+
+	&__text
+		font-size 1.125rem
+		font-family 'Open Sans', sans-serif
+		font-weight 600
+		line-height 1.6
+		text-align center
+		color: #000
+		margin-bottom 1.2em
+		margin-top 0
+
+		+sm-block()
+			width 44%
+		
+		+lg-block()
+			display none
+
+	&__form
+		width 20em
+		height 3.34em
+		margin-bottom 1.33em
+		border: 1px solid #c9ccd4
+		border-radius: 0.26em
+		font-size 0.9rem
+		color #1c1c1c
+		font-family 'Open Sans'
+		padding 0.87em 1.27em 0.74em 1.74em
+
+		+sm-block()
+			width 22.36em
+
+	&__form-btn
+		width 20em
+		height 3.34em
+		font-size 0.9rem
+		line-height 1.4
+		font-family 'Open Sans'
+		font-weight 600
+		border: none
+		border-radius: 0.4em
+		background-color #0AD9C6
+
+		+sm-block()
+			width 22.36em
